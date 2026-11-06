@@ -2,10 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>BSD Character Build Recreation</title>
 </head>
 <body>
-    
+       <header class="grid-con center grid-con" id="header-nav">
+        <h1 class="hidden">Most Popular & Fan-favourite Characters in the BSD Anime Series</h1>
+        <img src="images/logo.jpg" alt="Bungou Stray Dogs Logo" id="main-logo">
+    </header>
+
+    <main>
+        <div class="grid-con center grid-con">
+            <nav id="character-nav">
+            <h2 class="hidden">Main Navigation</h2>
+            <ul id="characters">
+                <li>
+                    <a href="#lightbox1">
+                        <img src="images/nakajima-atsushi.png" alt="Nakajima Atsushi">
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox2">
+                        <img src="images/akutagawa-ryuunosuke.png" alt="Akutagawa Ryuunosuke">
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox3">
+                        <img src="images/dazai-osamu.png" alt="Dazai Osamu">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox4">
+                        <img src="images/nakahara-chuuya.png" alt="Nakahara Chuuya">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+
+
+        <div>
+            <section id="instructions" class="grid-con center grid-con">
+                <h3>Click On Each Character's Profile!</h3>
+                <p>Use your mouse to hover/click to discover more about each BSD character.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer id="main-footer" class="grid-con center grid-con">
+        <p>All Images &copy; Bungou Stray Dogs</p>
+    </footer>
+
+
+     <div class="lightbox" id="lightbox1">
+        <a href="" class="lightbox-close">x</a>
+        <section>
+            <h2 class="lb-heading">Nakajima Atsushi - Beast Beneath The Moonlight</h2>
+            <p class="lb-text">Nakajima Atsushi is the main character in Bungou Stray Dogs. An orphan with a traumatic past, he joins the Armed Detective Agency after discovering his ability to transform into a powerful white tiger. Despite emotional struggles, he grows into a brave protector, symbolizing resilience and self-worth.</p>
+        </section>
+    </div>
+
+    <div class="lightbox" id="lightbox2">
+        <a href="" class="lightbox-close">x</a>
+        <section>
+            <h2 class="lb-heading">Akutagawa Ryuunosuke - Rashoumon</h2>
+            <p class="lb-text">A ruthless Port Mafia member known for his deadly ability Rashomon, which turns his coat into a beast that slashes anything. He seeks validation from Dazai and harbors deep resentment toward Atsushi, making him a fierce and tragic rival.</p>
+        </section>
+    </div>
+
+    <div class="lightbox" id="lightbox3">
+        <a href="" class="lightbox-close">x</a>
+        <section>
+            <h2 class="lb-heading">Dazai Osamu - No Longer Human</h2>
+            <p class="lb-text">A brilliant strategist and ex-Port Mafia executive now working for the Armed Detective Agency. His ability No Longer Human nullifies others' powers. Dazai is eccentric, suicidal, and manipulative, often hiding his dark past behind humor.</p>
+        </section>
+    </div>
+
+        <div class="lightbox" id="lightbox4">
+        <a href="" class="lightbox-close">x</a>
+        <section>
+            <h2 class="lb-heading">Nakahara Chuuya - For Upon The Tainted Sorrow</h2>
+            <p class="lb-text">A fiery Port Mafia executive with the gravity-controlling ability For the Tainted Sorrow. Known for his strength and temper, Chuuya shares a complicated history with Dazai as his former partner in the infamous duo “Twin Dark”.</p>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
